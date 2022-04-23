@@ -1,0 +1,83 @@
+Michael Tambunan, [22/04/2022 20:28]
+<script> const scriptURL = 'https://script.google.com/macros/s/AKfycbzjWwvjJihKz3-24SxEnHM5XFjNPgQd_dv3uD_fgjLSp_4AAXsC6IC4C_ECvWyLkGsuBg/exec'; const form = document.forms['wpu-contact-form']; const btnKirim = document.querySelector('.btn-kirim'); const btnLoading = document.querySelector('.btn-loading'); const myAlert = document.querySelector('.my-alert'); form.addEventListener('submit', (e) => { e.preventDefault(); // ketika tombol submit diklik // tampilkan tombol loading, hilangkan tombol kirim btnLoading.classList.toggle('d-none'); btnKirim.classList.toggle('d-none'); fetch(scriptURL, { method: 'POST', body: new FormData(form) }) .then((response) => { // tampilkan tombol kirim, hilangkan tombol loading btnLoading.classList.toggle('d-none'); btnKirim.classList.toggle('d-none'); // tampilkan alert myAlert.classList.toggle('d-none'); // reset formnya form.reset(); console.log('Success!', response); }) .catch((error) => console.error('Error!', error.message)); }); </script>
+
+Michael Tambunan, [22/04/2022 21:17]
+<script>
+      const scriptURL = '';
+      const form = document.forms['wpu-contact-form'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            // tampilkan alert
+            myAlert.classList.toggle('d-none');
+            // reset formnya
+            form.reset();
+            console.log('Success!', response);
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+
+
+	Michael Tambunan, [22/04/2022 20:28]
+script> const scriptURL = 'https://script.google.com/macros/s/AKfycbzjWwvjJihKz3-24SxEnHM5XFjNPgQd_dv3uD_fgjLSp_4AAXsC6IC4C_ECvWyLkGsuBg/exec'; const form = document.forms['wpu-contact-form']; const btnKirim = document.querySelector('.btn-kirim'); const btnLoading = document.querySelector('.btn-loading'); const myAlert = document.querySelector('.my-alert'); form.addEventListener('submit', (e) => { e.preventDefault(); // ketika tombol submit diklik // tampilkan tombol loading, hilangkan tombol kirim btnLoading.classList.toggle('d-none'); btnKirim.classList.toggle('d-none'); fetch(scriptURL, { method: 'POST', body: new FormData(form) }) .then((response) => { // tampilkan tombol kirim, hilangkan tombol loading btnLoading.classList.toggle('d-none'); btnKirim.classList.toggle('d-none'); // tampilkan alert myAlert.classList.toggle('d-none'); // reset formnya form.reset(); console.log('Success!', response); }) .catch((error) => console.error('Error!', error.message)); }); </script>
+
+Michael Tambunan, [22/04/2022 21:17]
+script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzjWwvjJihKz3-24SxEnHM5XFjNPgQd_dv3uD_fgjLSp_4AAXsC6IC4C_ECvWyLkGsuBg/exec';
+      const form = document.forms['wpu-contact-form'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            // tampilkan alert
+            myAlert.classList.toggle('d-none');
+            // reset formnya
+            form.reset();
+            console.log('Success!', response);
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+
+Michael Tambunan, [22/04/2022 21:53]
+<script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll('.keyboard-box'), {
+        max: 35,
+        speed: 1000,
+        glare: true,
+      });
+    </script>
+  </body>
+
+
+
+
+
+
+
+	https://script.google.com/macros/s/AKfycbxLjIyXRwl427Rl_wHoAcPrNA7g0LOqOjWZABfr2-tVQv7_tRpx6_henFrP5P5vEOC0UQ/exec
