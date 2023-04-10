@@ -1,0 +1,297 @@
+html {
+  scroll-behavior: smooth;
+  transition-duration: 0.5s;
+}
+
+
+body{
+  background-color:#343a40 ; 
+  ;
+}
+
+/* CSS untuk tema gelap */
+.navbar-dark .navbar-brand {
+  color: #fff;
+  
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  color:#e7e9e99f;
+}
+
+.navbar-collapse {
+  transition: height 1s ease;
+}
+
+
+
+
+.jumbotron {
+  padding-top:6rem;
+}
+.jumbotron img {
+  width: 150px;
+  height: 150px;
+}
+
+
+#portfolio {
+  background-color: #121212;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#portfolio h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background-color: #1d1d1d;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+  height: 325px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+
+/* Styling untuk container galeri */
+.galeri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Styling untuk masing-masing gambar */
+.gambar {
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gambar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+/* Styling untuk tombol lihat gambar */
+.tombol {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.gambar:hover .tombol {
+  opacity: 1;
+}
+
+/* Styling untuk efek transisi saat gambar dihover */
+.gambar:hover {
+  transform: scale(1.1);
+}
+
+.gambar:hover img {
+  opacity: 0.8;
+}
+
+#gallery  {
+  background-color: #121212;
+  color: #fff;
+}
+
+#gallery  h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+#gallery  img {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition
+
+
+
+/* Styling untuk container galeri */
+galeri {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+#  img {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition
+
+
+/* Styling untuk masing-masing gambar */
+.gambar {
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gambar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease;
+}
+
+/* Styling untuk tombol lihat gambar */
+.tombol {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.gambar:hover .tombol {
+  opacity: 1;
+}
+
+/* Styling untuk efek transisi saat gambar dihover */
+.gambar:hover {
+  transform: scale(1.1);
+}
+
+.gambar:hover img {
+  opacity: 0.8;
+}
+
+
+/* Styling untuk bagian Hubungi Kami */
+#hubungi-kami {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#hubungi-kami h2 {
+  font-size: 36px;
+}
+
+#hubungi-kami form label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#hubungi-kami form input,
+#hubungi-kami form textarea {
+  background-color: #333;
+  border-right-color:#fff ;
+  color: #e8e837;
+}
+
+#hubungi-kami form button {
+  border: noneo;;
+  
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+#hubungi-kami form button:hover {
+  background-color: #ff8c00;
+}
+
+
+#hubungi-kami .card {
+  background-color: #555;
+  color: #fff;
+}
+
+#hubungi-kami .card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#hubungi-kami .card p {
+  font-size: 18px;
+}
+
+footer {
+  font-size: 16px;
+  padding-top: 2rem;
+}
+
+footer h5 {
+  font-weight: 700;
+  margin-bottom: 3rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer .bg-secondary {
+  font-size: 0.8rem;
+}
+
+
+section #jumbotron {
+  margin-top: 10rem;
+}
